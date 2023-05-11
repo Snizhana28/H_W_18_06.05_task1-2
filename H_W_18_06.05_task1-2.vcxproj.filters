@@ -3,4 +3,26 @@
   <ItemGroup>
     <ClCompile Include="application.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="parent">
+      <UniqueIdentifier>{6d2c31b9-9447-44ca-a605-3f9a66cff470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="child">
+      <UniqueIdentifier>{ad87cd96-a882-4c06-8d68-8ff80b9479c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="parent\pet.h">
+      <Filter>parent</Filter>
+    </ClInclude>
+    <ClInclude Include="child\dog.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\cat.h">
+      <Filter>child</Filter>
+    </ClInclude>
+    <ClInclude Include="child\parrot.h">
+      <Filter>child</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
